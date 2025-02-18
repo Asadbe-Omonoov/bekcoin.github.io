@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+body{
+    background-color: #2f2fa2;
+
+}
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+.logo {
+    font-family: "Press Start 2P", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 5px;
+    font-size: 40px;
+    color: #f64c72;
+}
+
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:     20px;
+    width: 100%;
+    max-width: 50%;
+}
+
+.bek-coins {
+    display: flex;
+    margin-top: 20px;
+
+}
+#coins {
+    font-size: 15px;
+    color: #fff;
+    font-family: "Press Start 2P", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.coins-h3{
+    font-family: "Press Start 2P", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: #f64c72;
+    text-align: center;
+}
+.clicer-img {
+    cursor: pointer;
+    margin-top: 10px;
+}
